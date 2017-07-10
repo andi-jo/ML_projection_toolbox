@@ -68,10 +68,10 @@ We would like to kindly thank the below persons and institutions which made this
 	    - Regression problem: Model UK CPI inflation on a quarterly basis
 	    - All data have been last retrieved on 23 Jan 2017.
 	    - All used data have been publicly available from (sources and data IDs):
-		      - Bank of England (http://www.bankofengland.co.uk/boeapps/iadb/NewInterMed.asp?Travel=NIxAZx): 
-		      - UK Office for National Statistics (ONS, https://www.ons.gov.uk/):  
-		      - Bank for International Settlements (credit to non-financial sector: http://www.bis.org/statistics/totcredit.htm):
-		      - World Bank, commodities prices: http://www.worldbank.org/en/research/commodity-markets (Pink Sheet)
+		  - Bank of England (http://www.bankofengland.co.uk/boeapps/iadb/NewInterMed.asp?Travel=NIxAZx): LPQAUYN, IUQLBEDR, IUQASIZC, XUQLBK82, 
+		  - UK Office for National Statistics (ONS, https://www.ons.gov.uk/): D7BT, LF24, MGSX, ABMI, A4YM, QWND.
+		  - Bank for International Settlements (credit to non-financial sector: http://www.bis.org/statistics/totcredit.htm): Q:GB:P:A:M:XDC:A.
+		  - World Bank, commodities prices: http://www.worldbank.org/en/research/commodity-markets (Pink Sheet, averge of energy and and non-energy price indices, excluding precious metals.)
 	    - Please refer to the Terms of Use of the above institutions for the usage and eventual redistributions of data.
 
     3. BJ air quality modelling:
