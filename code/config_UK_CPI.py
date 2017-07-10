@@ -13,9 +13,7 @@ NOTE: There is no gurantee that every combination of settings will execute witho
 """
 
 # paths
-#main_path        = 'X:\\_People\\Andreas Joseph\\research projects\\machine learning at central banks\\'
-#main_path        = 'C:\\Users\\Andreas_Joseph\\Dropbox\\boe\\projects resources\\ML paper\\code\\working folder - public\\'
-main_path        = 'C:\\Users\\Andreas Joseph\\Dropbox\\boe\\projects resources\\ML paper\\code\\working folder - public\\'
+main_path        = 'X:\\your\\path\\'
 data_path        = main_path+'data\\'    # data dir
 code_path        = main_path+'code\\'    # code dir
 out_path         = main_path+'results\\' # output dir
