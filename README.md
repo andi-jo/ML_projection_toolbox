@@ -9,7 +9,7 @@ of Bank of England SWP 676: Machine learning at central banks (September 2017).
 
 Authors: Chiranjit Chakraborty & Andreas Joseph.
 
-Disclaimer: licence.txt and SWP 676 disclaimer applies.
+Disclaimer: licence.txt and SWP 676 disclaimer apply.
 
 
 General package features:
