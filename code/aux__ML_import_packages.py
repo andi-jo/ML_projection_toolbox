@@ -2,10 +2,10 @@
 """
 Auxiliary package import: Case study UK CPI inflation projections
 -----------------------------------------------------------------
-from SWP XXX, Machine learning at central banks, Bank of England, 2017.
-Authors: Chiranjit Chakraborty & Andreas Joseph.
-
-See README.txt for details
+from Bank of England SWP 676: Machine learning at central banks (September 2017)
+- authors:         Chiranjit Chakraborty & Andreas Joseph
+- disclaimer:      licence.txt and SWP 676 disclaimer apply
+- documentation:   see README.txt for structure and comments for details
 """
 
 
