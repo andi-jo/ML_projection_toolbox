@@ -5,11 +5,11 @@ Simple wrapper for machine learning models in the context of lead-lag projection
 MACHINE LEARNING WRAPPER for projection analyses
 ------------------------------------------------
 
-of Bank of England SWP 676: Machine learning at central banks (September 2017).
+of Bank of England SWP 674: Machine learning at central banks (September 2017).
 
 Authors: Chiranjit Chakraborty & Andreas Joseph.
 
-Disclaimer: licence.txt and SWP 676 disclaimer apply.
+Disclaimer: licence.txt and SWP 674 disclaimer apply.
 
 
 General package features:
