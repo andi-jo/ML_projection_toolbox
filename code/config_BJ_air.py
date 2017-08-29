@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-CONFIGURATIONS: Case study UK CPI inflation projections
--------------------------------------------------------
-from Bank of England SWP 674: Machine learning at central banks (September 2017)
-- authors:         Chiranjit Chakraborty & Andreas Joseph
-- disclaimer:      licence.txt and SWP 674 disclaimer apply
+CONFIGURATIONS: Beijing air pollution level prediction
+------------------------------------------------------
+
+Alternatively provided configuration file to better understand program structure and options. 
+
+- disclaimer:      licence.txt. Case study has not been calibrated in any way to produce sensible results 
+                   but to demonstrate the working and options of the overall wrapper only. 
 - documentation:   see README.txt for structure and comments for details
 
 NOTE: There is no guarantee that every combination of settings will execute without causing an error. 
