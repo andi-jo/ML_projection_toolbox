@@ -1,5 +1,5 @@
-Machine learning (ML) wrapper based on scikit-learn package (http://scikit-learn.org/stable/)
----------------------------------------------------------------------------------------------
+ML_projection_toolbox: machine learning (ML) wrapper based on scikit-learn package (http://scikit-learn.org/stable/)
+--------------------------------------------------------------------------------------------------------------------
 
 Created on Thu Apr 07 13:00:00 2016
 Author: Andreas Joseph, Advanced Analytics Division, Bank of England*
