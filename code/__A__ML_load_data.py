@@ -4,7 +4,7 @@ PART A - DATA IMPORT: Case study UK CPI inflation projections
 -------------------------------------------------------------
 from Bank of England SWP 674: Machine learning at central banks (September 2017)
 - authors:         Chiranjit Chakraborty & Andreas Joseph
-- disclaimer:      licence.txt and SWP 676 disclaimer apply
+- disclaimer:      licence.txt and SWP 674 disclaimer apply
 - documentation:   see README.txt for structure and comments for details
 """
 
