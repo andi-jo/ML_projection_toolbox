@@ -47,6 +47,7 @@ Dependency structure:
 	- everything depends on the config-part
 	- __B__ and __C__ are independent
 	- __D__ depends on A-C, conditions on options set in config file
+	- also see aux__ML_import_packages.py
 
 Directory structure (can be changed in config files):
 -----------------------------------------------------
