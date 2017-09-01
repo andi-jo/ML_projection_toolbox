@@ -1,6 +1,8 @@
 # ML_projection_toolbox
 Simple Python wrapper for machine learning models in the context of lead-lag projection modelling.
 
+Questions, comments and bug reports can be sent to andreas.joseph@bankofengland.co.uk.
+
 
 MACHINE LEARNING WRAPPER for projection analyses
 ------------------------------------------------
