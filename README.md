@@ -1,11 +1,10 @@
-# ML_projection_toolbox
-Simple Python wrapper for machine learning models in the context of lead-lag projection modelling.
-
 
 MACHINE LEARNING WRAPPER for projection analyses
 ------------------------------------------------
 
-of Bank of England SWP 674: Machine learning at central banks (September 2017).
+Simple Python wrapper for machine learning models in the context of lead-lag projection modelling
+
+based on Bank of England SWP 674: Machine learning at central banks (September 2017).
 
 Link: http://www.bankofengland.co.uk/research/Pages/workingpapers/2017/swp674.aspx
 
