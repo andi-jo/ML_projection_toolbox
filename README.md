@@ -18,6 +18,7 @@ General package features:
 	- simplified use of sophisticated ML models (wrapper based on scikit-learn package (http://scikit-learn.org/stable/))
 	- automated bootstrapped training-testing framework (bagging)
 	- time series training, test and projection framework
+	- cross-sectional training & testing
 	- conditional model predictions
 	- set of diagnostic tools, including several specialised plots like prediction interval (fan) charts
 	- general data handling capabilities
