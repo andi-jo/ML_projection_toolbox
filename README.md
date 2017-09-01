@@ -77,7 +77,7 @@ We would like to kindly thank the below persons and institutions which made this
 		  - World Bank, commodities prices: http://www.worldbank.org/en/research/commodity-markets (Pink Sheet, averge of energy and and non-energy price indices, excluding precious metals.)
 	    - Please refer to the Terms of Use of the above institutions for the usage and eventual redistributions of data.
 
-    3. BJ air quality modelling:
+    3. BJ air quality modelling (additional example application to test portability and document program options):
 	    - Classification problem: Model air pollution in Beijing on an hourly basis
 	    - The air pollution level column "pm2.5: PM2.5 concentration (ug/m^3)" has been exchanged with (1/0) values:
 		      1: level above 100 (ug/m^3).
