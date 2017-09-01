@@ -9,6 +9,8 @@ MACHINE LEARNING WRAPPER for projection analyses
 
 of Bank of England SWP 674: Machine learning at central banks (September 2017).
 
+Link: http://www.bankofengland.co.uk/research/Pages/workingpapers/2017/swp674.aspx
+
 Authors: Chiranjit Chakraborty & Andreas Joseph.
 
 Disclaimer: licence.txt and SWP 674 disclaimer apply.
