@@ -1,8 +1,6 @@
 # ML_projection_toolbox
 Simple Python wrapper for machine learning models in the context of lead-lag projection modelling.
 
-Questions, comments and bug reports can be sent to andreas.joseph@bankofengland.co.uk.
-
 
 MACHINE LEARNING WRAPPER for projection analyses
 ------------------------------------------------
@@ -14,6 +12,8 @@ Link: http://www.bankofengland.co.uk/research/Pages/workingpapers/2017/swp674.as
 Authors: Chiranjit Chakraborty & Andreas Joseph.
 
 Disclaimer: licence.txt and SWP 674 disclaimer apply.
+
+Questions, comments and bug reports can be sent to andreas.joseph@bankofengland.co.uk.
 
 
 General package features:
