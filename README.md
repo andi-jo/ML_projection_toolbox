@@ -30,7 +30,7 @@ General package features:
 Quick guide:
 ------------
 
-	1. download zipped repository
+	1. download zipped repository (green ''Clone or download'' button)
 	2. unpack into desired project directory
 	3. set this directory as **main_path** in **config_XXX.py**
 	4. optional: customisation (model selection, time horizon, bootstraps, etc.)
