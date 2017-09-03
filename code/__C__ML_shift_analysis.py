@@ -12,8 +12,8 @@ from __main__ import config,data_func,ml_func,data,pd,np,time,pk
 
 save_name = config.out_path+'Horizon_analysis_summary_'+data.ID_short
 
-print '\nFeature importance by for different lead-lag relations:'
-print '-------------------------------------------------------\n'
+print '\nFeature importance for different lead-lag relations:'
+print '----------------------------------------------------\n'
 if config.do_model_fit==True:
     start_T = time.time() # for time taking
     
