@@ -32,7 +32,7 @@ Quick guide:
 
 	1. download zipped repository
 	2. unpack into desired project directory
-	3. set this **project path** in **config file**
+	3. set this directory as **main_path** in **config_XXX.py**
 	4. optional: customisation (model selection, time horizon, bootstraps, etc.)
 	5. run **__A__ML_load_data.py**: Triggers sequence of other scripts to be run. 
 					 Shows/saves eventual outputs accordingly.
