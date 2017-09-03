@@ -26,6 +26,17 @@ General package features:
 	- set of diagnostic tools, including several specialised plots like prediction interval (fan) charts
 	- general data handling capabilities
 	- I/O options for results, model instances and plots
+	
+Quick guide:
+------------
+
+	1. download zipped repository
+	2. unpack into desired project directory
+	3. set this **project path** in **config file**
+	4. optional: customisation (model selection, time horizon, bootstraps, etc.)
+	5. run **__A__ML_load_data.py**: Triggers sequence of other scripts to be run. 
+					 Shows/saves eventual outputs accordingly.
+	
 
 Program structure:
 ------------------
