@@ -9,6 +9,7 @@ from Bank of England SWP 674: Machine learning at central banks (September 2017)
 """
 
 print '\n\nSeries of diagnostic plots'
+print '(may take a minute or two)\n'
 print '--------------------------\n'
 
 from __main__ import config,data,data_func,ml_func,ml_plot,plt,np
