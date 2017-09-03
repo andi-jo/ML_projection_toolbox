@@ -38,8 +38,8 @@ Quick guide:
 					 Shows/saves eventual outputs accordingly.
 					 
 If you do not have Python installed, a fully working free scientific distribution which includes all necessary packages
-can be be found here: https://www.anaconda.com/download/. The current wrapper only works for Python 2.7, but can be easily
-ported to 3.x, mostly based on the print function).
+can be found here: https://www.anaconda.com/download/. The current wrapper only works for Python 2.7, but can be easily
+ported to 3.x, mostly based on the print function.
 	
 
 Program structure:
