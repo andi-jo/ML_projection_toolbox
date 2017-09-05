@@ -81,7 +81,7 @@ def ML_projection_plot(df,fit_col,target,test_start=None,test_end=None,ref_col=N
     p=df[[target,fit_col]].plot(figsize=(11,6),linewidth=2.5,\
            style=['bo-','gs-'],ms=3.5,rot=0) # main model output
     
-    x0 = p.get_xlim()[0] # left boundary of x-axis (plot reference point)
+    x0 = int(p.get_xlim()[0]) # left boundary of x-axis (plot reference point)
     
     # prediction intervals 
     if not pred_band==None:
