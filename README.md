@@ -33,8 +33,9 @@ Quick guide:
 	1. download zipped repository (green ''Clone or download'' button)
 	2. unpack into desired project directory
 	3. set this directory as **main_path** in **config_XXX.py**
-	4. optional: customisation (model selection, time horizon, bootstraps, etc.)
-	5. run **__A__ML_load_data.py**: Triggers sequence of other scripts to be run. 
+	4. make sure that the **code** sub-directory is on your Python path 
+	5. optional: customisation (model selection, time horizon, bootstraps, etc.)
+	6. run **__A__ML_load_data.py**: Triggers sequence of other scripts to be run. 
 					 Shows/saves eventual outputs accordingly.
 					 
 If you do not have Python installed, a fully working free scientific distribution which includes all necessary packages
