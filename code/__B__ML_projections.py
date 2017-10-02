@@ -139,12 +139,13 @@ if config.do_model_fit==True:
                     # cross-validation model projection (out-of-bag)
                     CV_models = CV_dict['models']
                     CV_output = np.zeros((len(CV_models),len(X_CV)))*np.nan
-                    test_I    = CV_dict['test_ind']
                     # index correction: forest model saved as list of trees
                     if config.method.split('-')[0]=='Forest':
                         i_0 = int(len(CV_models)/config.n_boot)
                     else:
                         i_0 = 1
+                    
+                    test_I = CV_dict['test_ind'] # bootstrap index masks for text dataset
                     # predictions
                     for i,model in enumerate(CV_models):
                         CV_output[i,test_I[i/i_0]==1] = model.predict(X_CV[test_I[i/i_0]==1,:])
