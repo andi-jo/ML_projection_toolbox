@@ -14,6 +14,8 @@ Disclaimer: licence.txt and SWP 674 disclaimer apply.
 
 Questions, comments and bug reports can be sent to andreas.joseph@bankofengland.co.uk.
 
+Please see the "Issues" tab for current and closed issues.
+
 
 General package features:
 -------------------------
