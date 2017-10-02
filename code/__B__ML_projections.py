@@ -140,9 +140,14 @@ if config.do_model_fit==True:
                     CV_models = CV_dict['models']
                     CV_output = np.zeros((len(CV_models),len(X_CV)))*np.nan
                     test_I    = CV_dict['test_ind']
+                    # index correction: forest model saved as list of trees
+                    if config.method.split('-')[0]=='Forest':
+                        i_0 = int(len(CV_models)/config.n_boot)
+                    else:
+                        i_0 = 1
                     # predictions
                     for i,model in enumerate(CV_models):
-                        CV_output[i,test_I[i]==1] = model.predict(X_CV[test_I[i]==1,:])
+                        CV_output[i,test_I[i/i_0]==1] = model.predict(X_CV[test_I[i/i_0]==1,:])
                     # errors
                     if config.is_class==False:
                         CV_error[c] = np.nanmean(np.abs(np.nanmean(CV_output,axis=0)-Y_CV))
@@ -171,9 +176,15 @@ if config.do_model_fit==True:
             X       = df_train[config.features].values
             Y       = projections[:train_L,0]
             foutput = np.zeros((len(models),len(df_train)))*np.nan
+            # index correction: forest model saved as list of trees
+            if config.method.split('-')[0]=='Forest':
+                i_0 = int(len(models)/config.n_boot)
+            else:
+                i_0 = 1
+            # loop over bootstrapped models
             test_I  = out_dict['test_ind'] # out-of-bag test indeces
             for i,model in enumerate(models):
-                foutput[i,test_I[i]==1] = model.predict(X[test_I[i]==1,:])
+                foutput[i,test_I[i/i_0]==1] = model.predict(X[test_I[i/i_0]==1,:])
             # record modelling stats
             # columns: inflation (0), low p-tile (1), mean forecast (2), high p-tile (3) 
             #          mean error (4), VAR reference (5), VAR error (6)
