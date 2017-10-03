@@ -65,7 +65,7 @@ if config.do_projections==True:
     title      = '{0} {1} with {2}% PI'.format(config.method,config.application,int(100-config.ptile_cutoff))
     fig_name   = config.fig_path+'ML_projections_{0}.{1}'.format(data.ID_short,config.fig_format)
     if case=='UK_CPI':
-        GFC_impact = ['2011Q3','GFC_impact'] # for two year horizon
+        GFC_impact = ['2010Q3','GFC_impact'] # for two year horizon
         ref_line   = [(1.02**(config.horizon/4.))*100-100,'target'] # annualised 2%-target
         y_range    = [-4,17] # approx y-value range for two year horizon
         x_label    = 'date'
