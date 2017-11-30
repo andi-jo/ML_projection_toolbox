@@ -575,7 +575,7 @@ def plot_feat_importance(weights,variance=None,corrs=None,features=None,last=Fal
         error = error[order]
         fig, ax = plt.subplots(figsize=(8.5,6))
         # get correlation color
-        if not corrs==None:
+        if not np.array(corrs).shape==():
             CMAP      = cm = plt.get_cmap(color_map) 
             cNorm     = colors.Normalize(vmin=-1, vmax=1)
             scalarMap = cmx.ScalarMappable(norm=cNorm, cmap=color_map)
