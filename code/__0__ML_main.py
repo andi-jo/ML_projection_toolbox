@@ -41,6 +41,6 @@ if config.do_shift_anal==True:
 
 #%%  diagnostic plots for parts A-C
 #    ------------------------------
-if config.do_shift_anal==True:
+if config.do_plot_diag==True:
     import __D__ML_diagnostics      as diag # >>> some case-dependent hard-coding for individual plots
     
