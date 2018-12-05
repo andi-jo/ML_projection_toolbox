@@ -6,7 +6,7 @@ Simple Python (2.7) wrapper for machine learning models in the context of lead-l
 
 based on Bank of England SWP 674: Machine learning at central banks (September 2017).
 
-Link: http://www.bankofengland.co.uk/research/Pages/workingpapers/2017/swp674.aspx
+Link: https://www.bankofengland.co.uk/working-paper/2017/machine-learning-at-central-banks
 
 Authors: Chiranjit Chakraborty & Andreas Joseph.
 
